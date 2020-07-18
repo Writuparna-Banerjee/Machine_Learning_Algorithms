@@ -11,3 +11,17 @@ The slope m is calculated using the formula m=(sum((X-Xbar)*(Y-Ybar))/sum((X-Xba
 
 2. The predict method, which will do the prediction
 For a particular value of X(Experience) our model predicts the probable Salary(Y).
+
+
+
+
+# Implementation of Logistic Regression from Scratch
+
+Logistic Regression is a classification technique in Supervised Machine Learning. It's similar to Linear Regression. To find a hyperplane that best classify the given input, the following is calculated: argmax np.sum(y*np.dot(X,w.T). However, to remove outliers the Cost (sigmoid) function is used.For,binary classification it is considered that if the value of sigmoid function is greater than 0.5, then the target variable y is 1 else it is zero.
+Here, we have implemented the Algorithm from scratch in Python i.e., without using Scikit-Learn or any other Machine Learning Toolbox. The dataset contains marks obtained by students in 2 exams as features and the target label, 0/1 as whether they will be admitted to the university (1) or not (0).
+
+Reference taken from: https://web.stanford.edu/~jurafsky/slp3/5.pdf
+
+
+
+
